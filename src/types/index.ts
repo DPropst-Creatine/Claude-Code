@@ -3,7 +3,7 @@ export interface LabResult {
   value: string
   unit: string
   referenceRange: string
-  status?: 'normal' | 'high' | 'low' | 'critical'
+  status?: 'normal' | 'high' | 'low' | 'critical' | 'unknown'
 }
 
 export interface LabTestInfo {

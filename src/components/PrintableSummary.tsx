@@ -1,6 +1,6 @@
 import { LabResult } from '../types'
 import { findLabTest } from '../data/labTestDatabase'
-import { Printer, Download } from 'lucide-react'
+import { Printer } from 'lucide-react'
 
 interface Props {
   results: LabResult[]

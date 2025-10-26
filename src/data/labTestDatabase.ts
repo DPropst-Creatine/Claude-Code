@@ -257,7 +257,7 @@ export function findLabTest(testName: string): LabTestInfo | undefined {
   }
 
   // Try common names
-  for (const [key, info] of Object.entries(labTestDatabase)) {
+  for (const [_key, info] of Object.entries(labTestDatabase)) {
     if (info.commonNames.some(name => name.toLowerCase() === normalized)) {
       return info
     }
